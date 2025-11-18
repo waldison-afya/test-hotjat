@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Página de teste — Contentsquare</title>
+
+  <!-- Exemplo de Content Security Policy: ajuste conforme necessário no servidor -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://t.contentsquare.net; connect-src 'self' https://t.contentsquare.net; img-src 'self' data: https://t.contentsquare.net; style-src 'self' 'unsafe-inline';">
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; color:#222; }
+    .note { background:#f8f9fa; border-left:4px solid #17a2b8; padding:12px 16px; border-radius:4px; }
+    .warn { background:#fff3cd; border:1px solid #ffeeba; padding:10px; border-radius:4px; margin-top:12px; }
+  </style>
+</head>
+<body>
+  <h1>Exemplo simples com Contentsquare</h1>
+
+  <p>Esta página demonstra a inclusão do script que você forneceu.</p>
+
+  <div class="note">
+    Importante: o script abaixo envia dados para um domínio externo (<code>t.contentsquare.net</code>). Antes de publicar, verifique conformidade com LGPD/GDPR e políticas de privacidade da sua organização.
+  </div>
+
+  <div class="warn">
+    Recomenda-se carregar esse tipo de script apenas após consentimento explícito de rastreamento.
+  </div>
+
+  <!-- Script fornecido pelo usuário -->
+  <script src="https://t.contentsquare.net/uxa/2fea31347bb1d.js"></script>
+
+  <noscript>
+    <p>O rastreamento está desabilitado porque o JavaScript foi desativado no navegador.</p>
+  </noscript>
+</body>
+</html>
